@@ -1,0 +1,2 @@
+elastic-workplace-search==0.3.0
+PyYAML==5.3.1
