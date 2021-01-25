@@ -12,7 +12,7 @@ usage: wpsearch.py [-h] [-p] {employees,trello,issues}
 - **Copy endpoint, access_token and custom sources id for individual sources and paste into sections in config.yaml**
 - Install Requirements
 
-`python -m pip install elastic-enterprise-search`
+`python -m pip install -r requirements.txt`
 - Load data one source at a time using the script
 
 `python wpsearch.py employees`
