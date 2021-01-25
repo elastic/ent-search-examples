@@ -1,2 +1,2 @@
-elastic-workplace-search==0.3.0
-PyYAML==5.3.1
+elastic-enterprise-search==7.10.0b1
+PyYAML>=5.3.1
