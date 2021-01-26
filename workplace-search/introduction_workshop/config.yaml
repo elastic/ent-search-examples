@@ -1,12 +1,12 @@
 deployment:
-  endpoint: https://a958794772774b24a79481c0156c7474.ent-search.europe-west1.gcp.cloud.es.io
-  access_token: ea8342757d18aec1da784f748f44cdba56ba9271f1cd185e799dc91481971e54
+  endpoint: 
+  access_token: 
 employees:
-  key: 600e8cebc2e0681c09fd1a70
+  key: 
   file: employees.json
 issues:
-  key: 600e8cfec2e06892b0fd1a73
+  key: 
   file: issues.json
 trello:
-  key: 600e8d0bc2e0685849fd1a76
+  key: 
   file: trello.json
