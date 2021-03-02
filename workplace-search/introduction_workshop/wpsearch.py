@@ -22,18 +22,18 @@ def get_data(filename):
 
 def upload_data():
     data = get_data(source['file'])    
-    client.index_documents(content_source_key=key,body=data)
+    client.index_documents(content_source_id=id,documents=data)
 
 def purge_data():
     data = get_data(source['file'])
     ids = [str(i) for i in range(1,len(data)+1)]
-    client.delete_documents(key, ids)
+    client.delete_documents(id, ids)
 
 args = parse_args()
 config = get_config()
 deployment =config['deployment']
 source = get_config()[args.source]
-key = source['key']
+id = source['id']
 base_url = deployment['endpoint']
 client = WorkplaceSearch(base_url, http_auth=deployment['access_token'])
 if args.purge:

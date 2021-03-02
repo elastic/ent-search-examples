@@ -2,11 +2,11 @@ deployment:
   endpoint: 
   access_token: 
 employees:
-  key: 
+  id: 
   file: employees.json
 issues:
-  key: 
+  id: 
   file: issues.json
 trello:
-  key: 
+  id: 
   file: trello.json

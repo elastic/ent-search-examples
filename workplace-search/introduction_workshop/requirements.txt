@@ -1,2 +1,2 @@
-elastic-enterprise-search==7.10.0b1
+elastic-enterprise-search==7.11.0
 PyYAML>=5.3.1

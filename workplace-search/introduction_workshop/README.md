@@ -9,7 +9,7 @@ usage: wpsearch.py [-h] [-p] {employees,trello,issues}
 - Create an enterprise search deployment in cloud.elastic.co
 - Create 3 custom api sources named employees, issues and trello
 - Clone repo
-- **Copy endpoint, access_token and custom sources id for individual sources and paste into sections in config.yaml**
+- **Copy endpoint, access_token, and custom sources id for individual sources and paste into sections in config.yaml**
 - Install Requirements
 
   `python -m pip install -r requirements.txt`
